@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tính chu vi hình tròn</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input {
+      padding: 8px;
+      margin: 10px;
+      width: 150px;
+    }
+    button {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<script>
+  let r = parseFloat(prompt("Nhập bán kính hình tròn:"));
+
+  // Kiểm tra giá trị hợp lệ
+  if (isNaN(r) || r <= 0) {
+    alert("Vui lòng nhập bán kính hợp lệ!");
+  } else {
+    // Tính chu vi
+    let circumference = 2 * Math.PI * r;
+
+    // Hiển thị kết quả
+    alert("Chu vi hình tròn là: " + circumference.toFixed(2));
+  }
+</script>
+
+</body>
+</html>

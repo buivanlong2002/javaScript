@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tính diện tích hình tròn</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input {
+      padding: 8px;
+      margin: 10px;
+      width: 150px;
+    }
+    button {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Tính diện tích hình tròn</h2>
+<input type="number" id="radiusInput" placeholder="Nhập bán kính (r)">
+<button onclick="calculateArea()">Tính diện tích</button>
+<p id="result"></p>
+
+<script>
+  function calculateArea() {
+
+    let radius = parseFloat(document.getElementById("radiusInput").value);
+
+
+    if (isNaN(radius) || radius <= 0) {
+      document.getElementById("result").innerText = "Vui lòng nhập bán kính hợp lệ!";
+      return;
+    }
+
+    let area = Math.PI * Math.pow(radius, 2);
+
+    document.getElementById("result").innerText = `Diện tích hình tròn là: ${area.toFixed(2)} đơn vị²`;
+  }
+</script>
+
+</body>
+</html>

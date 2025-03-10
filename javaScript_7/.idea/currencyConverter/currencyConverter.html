@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chuyển đổi tiền tệ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, select, button {
+      padding: 8px;
+      margin: 5px;
+    }
+    button {
+      background-color: #9370DB;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #7B68EE;
+    }
+    p {
+      font-weight: bold;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Ứng dụng chuyển đổi tiền tệ</h2>
+
+<label><b>Amount</b></label>
+<input type="number" id="amount" placeholder="Nhập số tiền" value="1">
+
+<label><b>From Currency</b></label>
+<select id="fromCurrency">
+  <option value="VND">VND</option>
+  <option value="USD">USD</option>
+</select>
+
+<label><b>To Currency</b></label>
+<select id="toCurrency">
+  <option value="USD">USD</option>
+  <option value="VND">VND</option>
+</select>
+
+<button onclick="convertCurrency()">Convert</button>
+
+<p id="result">Result: </p>
+<script>
+  function convertCurrency() {
+  let amount = parseFloat(document.getElementById("amount").value);
+  let from = document.getElementById("fromCurrency").value;
+  let to = document.getElementById("toCurrency").value;
+
+
+  if (isNaN(amount) || amount <= 0) {
+  document.getElementById("result").innerText = "Vui lòng nhập số tiền hợp lệ!";
+  return;
+  }
+
+
+  let exchangeRates = {
+  "VND": { "USD": 0.000043, "VND": 1 },
+  "USD": { "VND": 23250, "USD": 1 }
+  };
+
+
+  let convertedAmount = amount * exchangeRates[from][to];
+
+
+  document.getElementById("result").innerText = `Result: ${convertedAmount.toFixed(6)} ${to}`;
+  }
+
+</script>
+</body>
+</html>

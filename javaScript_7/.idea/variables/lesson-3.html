@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = parseInt(prompt("Nhập số a:", "50")); // Giá trị mặc định là 50
+  let b = parseInt(prompt("Nhập số b:", "3"));
+
+  if (b === 0) {
+    alert("Không thể chia cho 0");
+  } else if (a % b === 0) {
+    alert(a + " là bội số của " + b);
+  } else {
+    alert(a + " không phải là bội số của " + b);
+  }
+</script>
+</body>
+</html>
