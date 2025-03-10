@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80f4b9f5-c98c-49e7-8b71-74c21e1741f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaScript_6/DisplayOutput/Embedded.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/javaScript_7.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +45,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -74,7 +73,9 @@
       <workItem from="1741579164463" duration="6000" />
       <workItem from="1741585661480" duration="43000" />
       <workItem from="1741585719038" duration="2944000" />
-      <workItem from="1741588743136" duration="4664000" />
+      <workItem from="1741588743136" duration="5922000" />
+      <workItem from="1741599597622" duration="1198000" />
+      <workItem from="1741621441784" duration="19000" />
     </task>
     <servers />
   </component>
