@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Giá Điện</title>
+</head>
+<body>
+<h2>Tính Tiền Điện</h2>
+<label for="electricity">Nhập số kWh tiêu thụ:</label>
+<input type="number" id="electricity" placeholder="Nhập số kWh"><br><br>
+
+<button onclick="calculateElectricityBill()">Tính toán</button>
+
+<h3 id="result"></h3>
+
+<script>
+    function calculateElectricityBill() {
+        let kWh = parseFloat(document.getElementById("electricity").value);
+        let result = document.getElementById("result");
+
+        if (isNaN(kWh) || kWh <= 0) {
+            result.innerText = "Vui lòng nhập số kWh hợp lệ!";
+            return;
+        }
+
+        let brackets = [50, 50, 100, 100, 100, Infinity];
+        let rates = [1728, 1786, 2074, 2612, 2919, 3015];
+
+        let remaining = kWh;
+        let totalCost = 0;
+
+        for (let i = 0; i < brackets.length; i++) {
+            if (remaining <= 0) break;
+            let consumption = Math.min(remaining, brackets[i]);
+            totalCost += consumption * rates[i];
+            remaining -= consumption;
+        }
+
+        result.innerText = `Tổng tiền điện: ${totalCost.toLocaleString()} VND`;
+    }
+</script>
+</body>
+</html>

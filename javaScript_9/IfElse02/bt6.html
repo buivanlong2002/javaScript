@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>giải pt bậc 1</title>
+</head>
+<body>
+<p>Công thức tổng quát: <strong>ax + b = 0</strong></p>
+nhập số a:
+<input type="number" id="a" ><br>
+Nhập số b:
+<input type="number" id="b" ><br>
+<input type="button" onclick="myFunction()" value="Kết Quả"><br><br>
+<p id="result"></p>
+<script>
+  function myFunction() {
+    var a = parseFloat(document.getElementById("a").value);
+    var b = parseFloat(document.getElementById("b").value);
+    let x ;
+    if (a == 0) {
+      if (b != 0) {
+        document.getElementById("result").innerHTML = "PT vô nghiệm !!";
+      }else {
+        document.getElementById("result").innerHTML = "PT vô số nghiệm";
+      }
+    }else {
+      x = (-b)/a;
+      document.getElementById("result").innerText= "PT có nghiệm: " + x ;
+    }
+
+
+  }
+</script>
+</body>
+</html>

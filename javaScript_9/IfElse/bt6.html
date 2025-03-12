@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+nhập số tiền: <br>
+<input type="number" id="a"><br>
+nhập giá trị % hoa hồng <br>
+<input type="number" id="b"><br><br>
+<input type="button" value="kết quả" onclick="myFunction()">
+<p id="result"></p>
+
+</body>
+<script>
+    function myFunction() {
+        let a = parseFloat(document.getElementById("a").value);
+        let b = parseFloat(document.getElementById("b").value);
+        let result = a*b/100
+        document.getElementById("result").innerHTML = "Số tiền hoa hồng bạn nhận được" + result
+    }
+</script>
+</html>

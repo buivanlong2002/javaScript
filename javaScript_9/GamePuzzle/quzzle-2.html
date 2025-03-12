@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8"> <!-- Định dạng UTF-8 để hỗ trợ tiếng Việt -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Giúp hiển thị tốt trên mobile -->
+    <title>Game Puzzle</title> <!-- Tiêu đề trang -->
+    <style>
+        /* Thiết lập giao diện cơ bản */
+        body {
+            text-align: center; /* Căn giữa nội dung */
+            font-family: Arial, sans-serif; /* Font chữ dễ đọc */
+        }
+        .puzzle-container {
+            display: grid; /* Dùng lưới để xếp các mảnh ghép */
+            grid-template-columns: repeat(2, 100px); /* 2 cột, mỗi cột 100px */
+            grid-template-rows: repeat(2, 100px); /* 2 hàng, mỗi hàng 100px */
+            gap: 5px; /* Khoảng cách giữa các mảnh ghép */
+            margin: 20px auto; /* Căn giữa trên trang */
+            width: 210px; /* Tổng chiều rộng container */
+        }
+        .tile {
+            width: 100px; /* Kích thước mỗi mảnh ghép */
+            height: 100px;
+            border: 2px solid black; /* Viền đen */
+            background-size: 200px 200px; /* Ảnh nền có kích thước lớn hơn để chia nhỏ */
+            cursor: pointer; /* Hiển thị dấu trỏ khi di chuột vào */
+            transition: background 0.3s; /* Hiệu ứng mượt khi thay đổi ảnh */
+        }
+    </style>
+</head>
+<body>
+<h1>Game Puzzle</h1> <!-- Tiêu đề game -->
+<div class="puzzle-container" id="puzzle"></div> <!-- Khu vực chứa mảnh ghép -->
+<button onclick="checkWin()">Kiểm tra</button> <!-- Nút kiểm tra xem đã ghép đúng chưa -->
+
+<script>
+    const puzzle = document.getElementById("puzzle"); // Lấy phần tử puzzle-container từ HTML
+
+    // Mảng chứa 3 ảnh sử dụng URL trực tiếp
+    const images = [
+        "https://picsum.photos/id/237/500/500", // Ảnh 1
+        "https://picsum.photos/id/238/500/500", // Ảnh 2
+        "https://picsum.photos/id/239/500/500"  // Ảnh 3
+    ];
+
+    let pieces = []; // Mảng chứa các mảnh ghép
+
+    // Hàm tạo các mảnh ghép
+    function createPuzzle() {
+        puzzle.innerHTML = ""; // Xóa nội dung cũ (nếu có)
+        pieces = []; // Đặt lại mảng mảnh ghép
+
+        for (let i = 0; i < 4; i++) { // Tạo 4 mảnh ghép
+            let div = document.createElement("div"); // Tạo 1 thẻ div mới
+            div.classList.add("tile"); // Thêm class "tile" để tạo kiểu
+
+            // Xác định vị trí ảnh nền của từng mảnh ghép
+            let x = (i % 2) * -100; // Xác định vị trí ngang
+            let y = Math.floor(i / 2) * -100; // Xác định vị trí dọc
+
+            div.dataset.index = i; // Lưu vị trí mảnh ghép
+            div.dataset.imageIndex = 0; // Mặc định hiển thị ảnh đầu tiên
+
+            div.style.backgroundImage = `url(${images[0]})`; // Gán ảnh đầu tiên
+            div.style.backgroundPosition = `${x}px ${y}px`; // Cắt ảnh nền cho từng mảnh
+
+            div.onclick = () => changeImage(div); // Khi click thì đổi ảnh
+
+            puzzle.appendChild(div); // Thêm mảnh ghép vào container
+            pieces.push(div); // Lưu vào danh sách mảnh ghép
+        }
+    }
+
+    // Hàm đổi ảnh khi click vào mảnh ghép
+    function changeImage(div) {
+        let currentImageIndex = parseInt(div.dataset.imageIndex); // Lấy index ảnh hiện tại
+        let nextImageIndex = (currentImageIndex + 1) % images.length; // Chuyển ảnh 1 → 2 → 3
+
+        div.dataset.imageIndex = nextImageIndex; // Cập nhật index ảnh mới
+        div.style.backgroundImage = `url(${images[nextImageIndex]})`; // Đổi ảnh
+    }
+
+    // Hàm kiểm tra xem tất cả ảnh đã đúng chưa
+    function checkWin() {
+        let isWin = pieces.every(div => div.dataset.imageIndex == "2"); // Kiểm tra nếu tất cả là ảnh cuối
+        if (isWin) {
+            alert(" Chúc mừng! Bạn đã hoàn thành."); // Thông báo khi hoàn thành
+        } else {
+            alert(" Chưa đúng, tiếp tục nhé!"); // Nếu chưa đúng thì nhắc nhở
+        }
+    }
+
+    createPuzzle(); // Gọi hàm tạo puzzle khi tải trang
+</script>
+</body>
+</html>

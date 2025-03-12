@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>check tuổi</title>
+</head>
+<body>
+Nhập số tuổi: <br>
+<input type="number" id = "a"><br>
+<input type="submit" onclick="myFunction()"><br>
+<p id="b"></p>
+</body>
+<script>
+  function myFunction() {
+    var a = document.getElementById("a").value;
+    if (0 < a && a <= 12) {
+      document.getElementById("b").innerHTML= "Đúng con người rồi"
+    }else {
+      document.getElementById("b").innerHTML= "con gì ấy ?"
+    }
+  }
+</script>
+</html>

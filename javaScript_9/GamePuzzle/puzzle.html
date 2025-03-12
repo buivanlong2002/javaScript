@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Puzzle</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        .puzzle-container {
+            display: grid;
+            grid-template-columns: repeat(3, 80px);
+            gap: 5px;
+            margin: 20px auto;
+            width: 260px;
+        }
+        .tile {
+            width: 80px; height: 80px;
+            font-size: 24px; font-weight: bold;
+            display: flex; justify-content: center; align-items: center;
+            border: 2px solid black; cursor: pointer;
+            background-color: lightblue;
+        }
+        .empty { background-color: lightgray; cursor: default; }
+    </style>
+</head>
+<body>
+<h1>Game Puzzle</h1>
+<div class="puzzle-container" id="puzzle"></div>
+<button onclick="shuffle()">Xáo trộn</button>
+
+<script>
+    const puzzle = document.getElementById("puzzle");
+    let tiles = [1, 2, 3, 4, 5, 6, 7, 8, null]; // 8 số + 1 ô trống
+
+    function renderPuzzle() {
+        puzzle.innerHTML = "";
+        tiles.forEach((num, index) => {
+            let div = document.createElement("div");
+            div.classList.add("tile");
+            if (num) {
+                div.textContent = num;
+                div.onclick = () => moveTile(index);
+            } else {
+                div.classList.add("empty");
+            }
+            puzzle.appendChild(div);
+        });
+    }
+
+    function moveTile(index) {
+        let emptyIndex = tiles.indexOf(null);
+        let validMoves = [emptyIndex - 1, emptyIndex + 1, emptyIndex - 3, emptyIndex + 3];
+
+        if (validMoves.includes(index)) {
+            [tiles[emptyIndex], tiles[index]] = [tiles[index], tiles[emptyIndex]];
+            renderPuzzle();
+            checkWin();
+        }
+    }
+
+    function shuffle() {
+        tiles.sort(() => Math.random() - 0.5);
+        renderPuzzle();
+    }
+
+    function checkWin() {
+        if (tiles.join() === "1,2,3,4,5,6,7,8,") {
+            alert("🎉 Chúc mừng! Bạn đã hoàn thành.");
+        }
+    }
+
+    shuffle();
+</script>
+</body>
+</html>

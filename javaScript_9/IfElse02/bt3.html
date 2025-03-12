@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính diện tích hình vuông</title>
+</head>
+<body>
+nhập độ dài cạnh hình vuông : <br>
+<input type="text" id="a"><br>
+<select  id="b">
+  <option value="mm">mm</option>
+  <option value="cm">cm</option>
+  <option value="m">m</option>
+  <option value="km">km</option>
+
+</select>
+<input type="button" onclick="myFunction()" value="kết quả">
+<p id="result"></p>
+<script>
+  function myFunction() {
+    let value = parseFloat(document.getElementById("a").value);
+    let b = document.getElementById("b").value;
+    let result ;
+
+    switch (b) {
+      case "mm":
+        result = value * value;
+        document.getElementById("result").innerHTML ="Diện tích hình vuông: "  + result + " mm";
+        break;
+      case "cm":
+          result = value * value;
+          document.getElementById("result").innerHTML = result + " cm";
+          break;
+      case "m":
+            result = value * value;
+            document.getElementById("result").innerHTML = result + " m";
+            break;
+      case "km":
+              result = value * value;
+              document.getElementById("result").innerHTML = result + " km";
+              break;
+      default:
+    }
+  }
+</script>
+</body>
+</html>

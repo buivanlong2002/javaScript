@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tính Thuế Thu Nhập Cá Nhân</title>
+</head>
+<body>
+<h2>Tính Thuế Thu Nhập Cá Nhân</h2>
+<label for="income">Tổng thu nhập (VND):</label>
+<input type="number" id="income" placeholder="Nhập tổng thu nhập"><br><br>
+
+<label for="dependents">Số người phụ thuộc:</label>
+<input type="number" id="dependents" placeholder="Nhập số người phụ thuộc"><br><br>
+
+<button onclick="calculateTax()">Tính thuế</button>
+
+<h3 id="result"></h3>
+
+<script>
+  function calculateTax() {
+    let income = parseFloat(document.getElementById("income").value);
+    let dependents = parseInt(document.getElementById("dependents").value);
+    let result = document.getElementById("result");
+
+    if (isNaN(income) || isNaN(dependents) || income <= 0 || dependents < 0) {
+      result.innerText = "Vui lòng nhập đúng dữ liệu!";
+      return;
+    }
+
+    let taxableIncome = income - 11000000 - (dependents * 4400000);
+
+    if (taxableIncome <= 0) {
+      result.innerText = "Thu nhập không phải đóng thuế!";
+      return;
+    }
+
+    let tax = 0;
+    let brackets = [5000000, 5000000, 8000000, 14000000, 20000000, 28000000, Infinity];
+    let rates = [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35];
+
+    let remaining = taxableIncome;
+    for (let i = 0; i < brackets.length; i++) {
+      if (remaining <= 0) break;
+      let amount = Math.min(remaining, brackets[i]);
+      tax += amount * rates[i];
+      remaining -= amount;
+    }
+
+    result.innerText = `Thuế TNCN phải nộp: ${tax.toLocaleString()} VND`;
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tính diện tích hình tam giác vuông</title>
+</head>
+<body>
+nhập độ dài cạnh góc vuông thứ nhất: <br>
+<input type="number" id="width"><br>
+nhập độ dài cạnh góc vuông thứ hai: <br>
+<input type="number" id="length"><br>
+<select  id="b">
+  <option value="mm">mm</option>
+  <option value="cm">cm</option>
+  <option value="m">m</option>
+  <option value="km">km</option>
+
+</select>
+<input type="button" onclick="myFunction()" value="kết quả">
+<p id="result"></p>
+<script>
+  function myFunction() {
+    let width = parseFloat(document.getElementById("width").value);
+    let length = parseFloat(document.getElementById("length").value);
+    let b = document.getElementById("b").value;
+    let result ;
+
+    switch (b) {
+      case "mm":
+        result = width * length /2;
+        document.getElementById("result").innerHTML ="Diện tích tam giác vuông: "  + result + " mm";
+        break;
+      case "cm":
+        result =  width * length /2;
+        document.getElementById("result").innerHTML ="Diện tích tam giác vuông: " + result + " cm";
+        break;
+      case "m":
+        result =  width * length /2;
+        document.getElementById("result").innerHTML ="Diện tích tam giác vuông: " + result + " m";
+        break;
+      case "km":
+        result =  width * length /2;
+        document.getElementById("result").innerHTML ="Diện tích tam giác vuông: " + result + " km";
+        break;
+      default:
+    }
+  }
+</script>
+</body>
+</html>

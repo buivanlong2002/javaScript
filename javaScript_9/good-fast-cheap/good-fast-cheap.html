@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Switch Logic</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e3e7eb;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      margin: 15px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .toggle-switch {
+      position: relative;
+      width: 50px;
+      height: 24px;
+      margin-right: 10px;
+      background-color: #aaa;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .toggle-switch::before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: white;
+      border-radius: 50%;
+      top: 2px;
+      left: 2px;
+      transition: 0.3s;
+    }
+
+    .toggle-container[data-state="on"] .toggle-switch {
+      background-color: var(--color);
+    }
+
+    .toggle-container[data-state="on"] .toggle-switch::before {
+      transform: translateX(26px);
+    }
+
+    .toggle-container[data-state="on"] .label {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+<div class="toggle-container" data-state="off" style="--color: green;" id="good">
+  <div class="toggle-switch"></div>
+  <span class="label">GOOD</span>
+</div>
+
+<div class="toggle-container" data-state="off" style="--color: blue;" id="cheap">
+  <div class="toggle-switch"></div>
+  <span class="label">CHEAP</span>
+</div>
+
+<div class="toggle-container" data-state="off" style="--color: brown;" id="fast">
+  <div class="toggle-switch"></div>
+  <span class="label">FAST</span>
+</div>
+
+<script>
+  const toggles = {
+    good: document.getElementById("good"),
+    cheap: document.getElementById("cheap"),
+    fast: document.getElementById("fast"),
+  };   // đối tượng toggles gồm 3 biến good , cheap , fast
+
+  function toggleSwitch(selected) {                     //  hàm toggleSwitch đầu vào selected
+
+    let isOn = toggles[selected].getAttribute("data-state") === "on";     // Lấy giá trị của thuộc tính data-state của phần tử toggles[selected]
+                                                                           // Nếu giá trị là "on", nghĩa là công tắc đang bật (isOn = true), ngược lại là false.
+
+
+
+    if (isOn) {
+      toggles[selected].setAttribute("data-state", "off");      // Nếu công tắc đang ở trạng thái "on", thì đặt lại thành "off" và thoát hàm. thằng này ngược với thằng trên
+      return;
+    }
+
+                                                             // quy định chung thôi  để hiểu thằng bật như nào thằng tắt như nào
+                                                             //  setAttribute là gì ?
+
+
+                                                             //   Hàm setAttribute(name, value) giúp thêm hoặc cập nhật một thuộc tính của phần tử HTML.
+
+
+
+
+    toggles[selected].setAttribute("data-state", "on");   // Đặt data-state của phần tử selected thành "on".
+
+    if (selected === "fast") {                              // nếu chọn fast thì cheap tắt
+      toggles["cheap"].setAttribute("data-state", "off");
+    } else if (selected === "cheap") {                      // nếu chọn cheap thì cheap tắt
+      toggles["good"].setAttribute("data-state", "off");
+    } else if (selected === "good") {                       // nếu chọn good thì fast tắt
+      toggles["fast"].setAttribute("data-state", "off");
+    }
+
+
+
+  }
+
+
+  Object.keys(toggles).forEach(key => {
+    toggles[key].addEventListener("click", () => toggleSwitch(key));
+    // thằng này đẻ làm gì ?
+    // Object.keys(toggles).forEach(key => { ... }) → Lặp qua tất cả các key (fast, cheap, good).
+    //  toggles[key].addEventListener("click", () => toggleSwitch(key)) → Khi click vào nút, gọi toggleSwitch(key).
+    //   Mục đích: Khi click vào bất kỳ nút nào, nó sẽ thay đổi trạng thái on/off theo quy tắc của bạn.
+
+
+  });
+</script>
+
+</body>
+</html>

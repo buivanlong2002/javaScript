@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tính cước điện thoại</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+    .container { width: 300px; margin: auto; }
+    input, button { margin: 10px 0; padding: 5px; width: 100%; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h2>Tính cước điện thoại</h2>
+  <label for="internal">Số phút gọi nội mạng:</label>
+  <input type="number" id="internal" placeholder="Nhập số phút" min="0">
+
+  <label for="external">Số phút gọi ngoại mạng:</label>
+  <input type="number" id="external" placeholder="Nhập số phút" min="0">
+
+  <label for="sms">Số tin nhắn:</label>
+  <input type="number" id="sms" placeholder="Nhập số tin nhắn" min="0">
+
+  <button onclick="calculateBill()">Tính cước</button>
+
+  <h3 id="result"></h3>
+</div>
+
+<script>
+  function calculateBill() {
+    let internalMinutes = parseFloat(document.getElementById('internal').value) || 0;
+    let externalMinutes = parseFloat(document.getElementById('external').value) || 0;
+    let smsCount = parseFloat(document.getElementById('sms').value) || 0;
+
+    let internalRate = 500; // 500đ/phút
+    let externalRate = 1000; // 1000đ/phút
+    let smsRate = 200; // 200đ/tin nhắn
+
+    let total = (internalMinutes * internalRate) + (externalMinutes * externalRate) + (smsCount * smsRate);
+
+    document.getElementById('result').innerText = `Tổng cước: ${total.toLocaleString()} VNĐ`;
+  }
+</script>
+</body>
+</html>

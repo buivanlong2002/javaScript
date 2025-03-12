@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chuyển từ mét sang feet</title>
+</head>
+<body>
+nhập dữ liệu (m): <br>
+<input type="text" id="a">
+<input type="button" onclick="myFunction()" value="kết quả">
+<p id="result"></p>
+<script>
+  function myFunction() {
+    let value = parseFloat(document.getElementById("a").value);
+
+    let result =value * 3.2808;
+    document.getElementById("result").innerText = + result + " feet";
+
+
+
+  }
+</script>
+</body>
+</html>

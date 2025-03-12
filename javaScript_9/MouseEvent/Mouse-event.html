@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Di chuyển hình ảnh</title>
+</head>
+<style >
+  #container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+  }
+  .mouth {
+    width: 1000px;
+    height: 200px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .led-text {
+    font-size: 14px;
+    font-weight: bold;
+    color: #100c01;
+    position: absolute;
+    white-space: nowrap;
+    animation: text-run 1s infinite linear;
+  }
+
+  @keyframes text-run {
+    0% { transform: translateX(-100%); }
+
+    100% { transform: translateX(100%); }
+  }
+
+</style>
+<body>
+<h2>Di chuyển hình ảnh bằng nút bấm</h2>
+<div id="container">
+  <img id="myImage" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" style="width: 30%; position: absolute;">
+</div>
+
+<br>
+
+<input type="button" value="Lên" onclick="moveUp();" />
+
+<input type="button" value="Trái" onclick="moveLeft();" />
+<input type="button" value="Phải" onclick="moveRight();" />
+
+<input type="button" value="Xuống" onclick="moveDown();" />
+
+
+<div class="mouth">
+  <div class="led-text"><img  src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" style="width: 30%;" /></div>
+
+</div>
+<script>
+  let imgObj = null;
+
+  function init() {
+    imgObj = document.getElementById('myImage');
+    imgObj.style.left = '0px';
+    imgObj.style.top = '0px';
+  }
+
+  function moveRight() {
+    imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+  }
+
+  function moveLeft() {
+    imgObj.style.left = parseInt(imgObj.style.left) - 10 + 'px';
+  }
+
+  function moveUp() {
+    imgObj.style.top = parseInt(imgObj.style.top) - 10 + 'px';
+  }
+
+  function moveDown() {
+    imgObj.style.top = parseInt(imgObj.style.top) + 10 + 'px';
+  }
+
+  window.onload = init;
+</script>
+</body>
+</html>

@@ -1,14 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3d738881-4d61-4175-bd6a-0b659b2b54e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../javaScript_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/if_else/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/if_else/lesson-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/if_else/lesson-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/switch-case/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/switch-case/lesson-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/switch-case/lesson-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/ternaryOperator/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/ternaryOperator/lesson-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_8/ternaryOperator/lesson-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GamePuzzle/love.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GamePuzzle/puzzle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GamePuzzle/quzzle-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GamePuzzle/tim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse/b1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse/b2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse/b3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse/b4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse/b5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse/bt6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse/bt7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/b1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/b10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/b11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/b12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/b8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/bt2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/bt3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/bt4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/bt5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/bt6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/bt7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IfElse02/bt9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MouseEvent/Mouse-event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-fast-cheap/good-fast-cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboardEvent/keyboard-event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -18,14 +68,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/CodeGym/JavaScript/javaScript_9",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeGym/JavaScript/javaScript_9&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\JavaScript\javaScript_9" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\JavaScript\javaScript_9\WeightIndex" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,6 +108,10 @@
       <updated>1741621511060</updated>
       <workItem from="1741621512211" duration="3000" />
       <workItem from="1741621669861" duration="2000" />
+      <workItem from="1741675361599" duration="8566000" />
+      <workItem from="1741702825952" duration="4298000" />
+      <workItem from="1741741792524" duration="9065000" />
+      <workItem from="1741754768735" duration="8466000" />
     </task>
     <servers />
   </component>

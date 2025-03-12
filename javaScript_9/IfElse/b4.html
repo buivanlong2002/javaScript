@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+nhập số A:
+<input type="number" name="" id="a"> <br>
+nhập số B:
+<input type="number" name="" id="b"> <br>
+nhập số C:
+<input type="number" name="" id="c"> <br>
+<button type="button"  onclick="findMax()">tìm số lớn nhất</button>
+  <p id ="result" ></p>
+  <script>
+
+      function findMax() {
+      let a = parseInt(document.getElementById("a").value);
+      let b = parseInt(document.getElementById("b").value);
+      let c = parseInt(document.getElementById("c").value);
+
+      let max ;
+      if( a >= b && a >= c){
+        max = a ;
+      }else if( b >= c && b >= c){
+        max = b ;
+      }else if( c >= c && c >= c){
+        max = c ;
+      }
+
+        document.getElementById("result").innerHTML = "Số lớn nhất là: " + max;
+    }
+
+
+  </script>
+</body>
+</html>
