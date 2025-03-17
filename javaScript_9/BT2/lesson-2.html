@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính chỉ số BMI</title>
+</head>
+<body>
+<label for="height"><input type="number" placeholder="Nhập chiều cao" id="height"> Nhập chiều cao</label> <br> <br>
+<label for="weight"><input type="number" placeholder="Nhập cân nặng" id="weight"> Nhập chiều cao</label> <br> <br>
+<button onclick="myFunction()">NỘP BÀI</button>
+<script>
+    function myFunction() {
+        let h = parseFloat(document.getElementById("height").value);
+        let w = parseFloat(document.getElementById("weight").value);
+        let BMI = w/(h*h);
+        if (BMI < 18.5) { alert('ăn thêm đi, gầy quá rồi')}
+        else if (BMI < 25) { alert('dáng đẹp thế')}
+        else if (BMI < 30) {alert('thôi cũng được')}
+        else{ alert('hốc ít thôi')}
+
+    }
+
+
+</script>
+
+</body>
+</html>
