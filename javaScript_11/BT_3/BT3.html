@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>In Tam Giác Vuông</title>
+</head>
+<body>
+<pre id="ketqua1"></pre>
+<pre id="ketqua"></pre>
+<pre id="ketqua2"></pre>
+<pre id="ketqua3"></pre>
+
+
+<script>
+  function inTamGiacVuong(chieuCao) {
+    let ketQua = "";
+    for (let i = chieuCao; i >= 1; i--) {
+      ketQua += "*".repeat(i) + "\n";
+    }
+    document.getElementById("ketqua").textContent = ketQua;
+  }
+  inTamGiacVuong(6);
+
+
+  function inTamGiacVuong1(chieuCao) {
+    let ketQua = "";
+    for (let i = 1; i <= chieuCao; i++) {
+      ketQua += "*".repeat(i) + "\n";
+    }
+    document.getElementById("ketqua1").textContent = ketQua;
+  }
+  inTamGiacVuong1(6);
+
+
+  function inTamGiacVuongNguoc(chieuCao) {
+    let ketQua = "";
+    for (let i = chieuCao; i >= 1; i--) {
+      ketQua += " ".repeat(chieuCao - i) + "*".repeat(i) + "\n";
+    }
+    document.getElementById("ketqua2").textContent = ketQua;
+  }
+  inTamGiacVuongNguoc(6)
+
+
+  function inTamGiacVuongNguoc1(chieuCao) {
+    let ketQua = "";
+    for (let i = 1; i <= chieuCao; i++) {
+      ketQua += " ".repeat(chieuCao - i) + "*".repeat(i) + "\n";
+    }
+    document.getElementById("ketqua3").textContent = ketQua;
+  }
+  inTamGiacVuongNguoc1(6)
+
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiểm tra Nhiệt Độ</title>
+</head>
+<body>
+
+
+
+<script>
+  let nhietDo;
+
+  // Vòng lặp yêu cầu nhập nhiệt độ hợp lệ
+  while (true) {
+    let input = prompt("Vui lòng nhập nhiệt độ hiện tại:");
+    nhietDo = parseFloat(input);
+
+    if (isNaN(nhietDo)) {
+      alert("Vui lòng nhập một số hợp lệ!");
+      continue; // Yêu cầu nhập lại nếu không hợp lệ
+    }
+
+    if (nhietDo > 100) {
+      alert("Nhiệt độ quá cao! Hãy giảm nhiệt độ.");
+    } else if (nhietDo < 20) {
+      alert("Nhiệt độ quá thấp! Hãy tăng nhiệt độ.");
+    } else {
+      alert("Nhiệt độ ổn định.");
+      break; // Thoát vòng lặp khi nhiệt độ hợp lệ
+    }
+  }
+</script>
+
+</body>
+</html>

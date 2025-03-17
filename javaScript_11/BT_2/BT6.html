@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<p id="ketqua"></p>
+
+<script>
+  function myFunction(n) {
+    let sum = 0;
+
+    for (let i = 0; i < n; i++) {
+      sum += i * 7;
+    }
+
+    document.getElementById("ketqua").innerHTML = "Tổng các số chia hết cho 7 là: " + sum;
+  }
+myFunction(30);
+</script>
+
+</body>
+</html>

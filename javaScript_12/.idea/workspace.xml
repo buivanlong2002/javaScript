@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e963575a-81a3-4b45-80aa-80cdd9133d0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../javaScript_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_1/BT4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_1/BT5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_TH/BT1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_9/IfElse02/bt5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_9/IfElse02/bt5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2u8EGFcZFLiVJb9GJ346euWe4fi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,8 +57,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/CodeGym/JavaScript/javaScript_12",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -42,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741621703351</updated>
       <workItem from="1741621704563" duration="4000" />
+      <workItem from="1741942238222" duration="1535000" />
     </task>
     <servers />
   </component>

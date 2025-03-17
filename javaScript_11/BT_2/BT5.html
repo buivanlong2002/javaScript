@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fibonacci Sum</title>
+</head>
+<body>
+<div id="ketqua"></div>
+<script>
+    function fibonacciSum(n) {
+        let a = 0, b = 1, sum = 1, result = "0, 1"; let c = 0 ;// Bắt đầu với 2 số đầu tiên
+        let firstDivBy5 = null ;
+        for (let i = 2; i < n; i++) {
+            let next = a + b;
+            sum += next;
+            result += ", " + next;
+            if (firstDivBy5 === null && next % 5 === 0) {
+                firstDivBy5 = next;
+            }
+            a = b;
+            b = next;
+            c = next + a + b ;
+        }
+        document.getElementById("ketqua").innerHTML =" Tổng của 20 số đầu tiên trong dãy fibonacci: " + c;
+
+    }
+
+    fibonacciSum(20);
+</script>
+</body>
+</html>

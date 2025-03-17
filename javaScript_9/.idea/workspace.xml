@@ -5,45 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d738881-4d61-4175-bd6a-0b659b2b54e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/if_else/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/if_else/lesson-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/if_else/lesson-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/switch-case/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/switch-case/lesson-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/switch-case/lesson-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/ternaryOperator/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/ternaryOperator/lesson-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_8/ternaryOperator/lesson-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamePuzzle/love.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamePuzzle/puzzle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamePuzzle/quzzle-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GamePuzzle/tim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse/b1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse/b2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse/b3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse/b4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse/b5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse/bt6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse/bt7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/b1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/b10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/b11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/b12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/b8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/bt2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/bt3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/bt4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/bt5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/bt6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/bt7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IfElse02/bt9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MouseEvent/Mouse-event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good-fast-cheap/good-fast-cheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboardEvent/keyboard-event.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IfElse02/bt5.html" beforeDir="false" afterPath="$PROJECT_DIR$/IfElse02/bt5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +77,8 @@
       <workItem from="1741702825952" duration="4298000" />
       <workItem from="1741741792524" duration="9065000" />
       <workItem from="1741754768735" duration="8466000" />
+      <workItem from="1741827464126" duration="3292000" />
+      <workItem from="1741847543949" duration="6000" />
     </task>
     <servers />
   </component>

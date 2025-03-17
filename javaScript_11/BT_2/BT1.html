@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đếm từ 1 đến 100</title>
+</head>
+<body>
+
+<h2>Đang đếm số...</h2>
+<p id="result"></p>
+
+<script>
+  let text = "";
+  for (let i = 1; i < 100; i++) {
+    text += i + " ";
+    if (i === 99) {
+      alert("Đã hoàn thành!");
+    }
+  }
+  document.getElementById("result").innerText = text;
+</script>
+
+</body>
+</html>
