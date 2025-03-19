@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        input {
+            padding: 10px;
+            width: 70%;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .add-btn {
+            background-color: green;
+            color: white;
+        }
+        .edit-btn, .delete-btn {
+            background-color: green;
+            color: white;
+            margin-left: 5px;
+        }
+        .delete-btn {
+            background-color: red;
+        }
+        .product-list {
+            margin-top: 20px;
+        }
+        .product-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .product-count {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Add New Product</h2>
+    <input type="text" id="productInput" placeholder="New Product">
+    <button class="add-btn" onclick="addProduct()">Add</button>
+
+    <h2>Display All Products</h2>
+    <p><span class="product-count" id="productCount">0</span> products</p>
+    <div class="product-list" id="productList"></div>
+</div>
+
+<script>
+    let products = [];
+
+    function addProduct() {
+        let input = document.getElementById("productInput");
+        let productName = input.value.trim();
+
+        if (productName) {
+            products.push(productName);
+            input.value = "";
+            displayProducts();
+        } else {
+            alert("Please enter a product name!");
+        }
+    }
+
+    function displayProducts() {
+        let productList = document.getElementById("productList");
+        productList.innerHTML = "";
+        document.getElementById("productCount").textContent = products.length;
+
+        products.forEach((product, index) => {
+            let productItem = document.createElement("div");
+            productItem.className = "product-item";
+            productItem.innerHTML = `
+                <span>${product}</span>
+                <div>
+                    <button class="edit-btn" onclick="editProduct(${index})">Edit</button>
+                    <button class="delete-btn" onclick="deleteProduct(${index})">Delete</button>
+                </div>
+            `;
+            productList.appendChild(productItem);
+        });
+    }
+
+    function editProduct(index) {
+        let newName = prompt("Enter new product name:", products[index]);
+        if (newName !== null && newName.trim() !== "") {
+            products[index] = newName.trim();
+            displayProducts();
+        }
+    }
+
+    function deleteProduct(index) {
+        if (confirm("Are you sure you want to delete this product?")) {
+            products.splice(index, 1);
+            displayProducts();
+        }
+    }
+</script>
+
+</body>
+</html>

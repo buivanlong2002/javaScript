@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function countDigits(arr) {
+        let count = 0;
+        for (let char of arr) {
+            if (char >= '0' && char <= '9') {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    // Khai báo mảng ký tự
+    let charArray = ['a', '1', 'b', '2', '3', 'x', '9', '8', 'y', 'z' , 'g'];
+
+    console.log("Mảng ký tự:", charArray);
+    console.log("Số ký tự số trong mảng:", countDigits(charArray));
+
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number"  placeholder="foot"
+        oninput="footToMeter(this.value)">
+<p>Celsius: <span id="number"></span></p>
+<input type="number" placeholder="meter"
+           oninput="meterToFoot(this.value)">
+<p>Celsius: <span id="number2"></span></p>
+
+</body>
+<script>
+  function footToMeter(foot){
+    foot = parseFloat(foot);
+    document.getElementById("number").innerHTML = "meter = " + 0.305 * foot;
+
+  }
+  function meterToFoot(meter){
+       meter = parseFloat(meter);
+       document.getElementById("number2").innerHTML ="foot = "+ 3.279 * meter ;
+  }
+</script>
+</html>

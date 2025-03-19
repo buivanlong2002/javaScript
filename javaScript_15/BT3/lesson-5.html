@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id = "result"></p>
+<script>
+    let b = prompt("Nhập vào tên ngôi sao: ");
+    arr1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    arr2 = ["Ursa Minor", "Taurus", "Cygnus", "Lyra", "Aquila"," Ursa Major", "Leo"];
+
+    let a = 0 ;
+    let check = false;
+
+     myFunction(b);
+    function myFunction(b) {
+        for (const bKey in arr1) {
+            if (arr1[bKey] === b) {
+                a = arr2[bKey];
+                check = true;
+                break;
+            }
+        }
+        if (check) {
+            document.getElementById("result").innerHTML = a ;
+        } else {
+            alert("Không tìm thấy")
+        }
+
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra ký tự số:</title>
+</head>
+<body>
+<script>
+    function isDigit(char) {
+        return !isNaN(char) && char.trim() !== '';
+    }
+
+    console.log(isDigit('5'));
+    console.log(isDigit('a'));
+    console.log(isDigit(' '));
+    console.log(isDigit('3.14'));
+    console.log(isDigit(''));
+
+</script>
+</body>
+</html>

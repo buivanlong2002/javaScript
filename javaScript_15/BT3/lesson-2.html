@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="num"  placeholder="Nhập vào 1 số bất kỳ"
+        oninput="numToMeter(this.value)">
+<p>Giá trị tăng lên 1 đơn vị:  <span id="number2"></span></p>
+</body>
+<script>
+  function numToMeter(a) {
+    let b = parseInt(a) + 1 ;
+    document.getElementById("number2").innerHTML = b;
+  }
+</script>
+</html>

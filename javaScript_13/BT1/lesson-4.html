@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="text" id="txtValue"/>
+<input type="button" id="btnAdd" value="Add" onclick="add_element_to_array();"/>
+<input type="button" id="btnDisplay" value="Display" onclick="display_array();"/>
+<div id="result"></div>
+
+<script>
+    let array = [];
+
+    function add_element_to_array() {
+        let value = document.getElementById("txtValue").value;
+        if (value.trim() !== "") {
+            array.push(value);
+            alert("Element: " + value + " Added at index " + (array.length - 1));
+            document.getElementById("txtValue").value = "";
+        } else {
+            alert("Vui lòng nhập giá trị hợp lệ!");
+        }
+    }
+
+    function display_array() {
+        let e = "<hr/>";
+        for (let i = 0; i < array.length; i++){
+            e += "Element " + i + " = " + array[i] + "<br/>";
+        }
+        array.reverse();
+        console.log(array);
+        document.getElementById("result").innerHTML = e;
+    }
+
+</script>
+
+</body>
+</html>

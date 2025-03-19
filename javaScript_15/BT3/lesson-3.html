@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="number" id="number1" placeholder = "Nhập vào số thứ nhất"><br><br>
+<input type="number" id="number2" placeholder = "Nhập vào số thứ hai"><br><br>
+<button onclick="myFunction()">kiểm tra</button>
+<p id = "result"></p>
+
+</body>
+<script>
+  function myFunction(a , b) {
+    a = parseFloat(document.getElementById("number1").value);
+    b = parseFloat(document.getElementById("number2").value);
+    if (a > b) {
+      alert("số thứ nhất lớn số thứ 2")
+    }else  {
+      let sum = a + b ;
+      document.getElementById("result").innerHTML ="Tổng của hai số: " + sum;
+    }
+  }
+</script>
+</html>

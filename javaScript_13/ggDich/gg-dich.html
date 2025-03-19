@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id = "abc">
+<button onclick="getMappedValue()">Dịch</button>
+<p id ="Ketqua"></p>
+<script>
+
+    let firstArray = ["Táo", "Chuối", "Quả Anh Đào", "Ngày"];
+    let secondArray = ["Apple", "q", "Cherry", "Date"];
+
+
+    function getMappedValue() {
+        let abc = document.getElementById("abc").value;
+        let index = secondArray.indexOf(abc);
+
+        if (index !== -1){
+            document.getElementById("Ketqua").innerHTML = firstArray[index];
+        }else{
+            document.getElementById("Ketqua").innerText="Để đi hỏi đã";
+        }
+
+    }
+
+
+
+</script>
+</body>
+</html>

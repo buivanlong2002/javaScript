@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Từ điển Anh - Việt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+        }
+        #result {
+            font-size: 20px;
+            margin-top: 20px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h2>Từ điển Anh - Việt</h2>
+<input type="text" id="searchInput" placeholder="Nhập từ tiếng Anh...">
+<button onclick="searchWord()">Tìm kiếm</button>
+<div id="result"></div>
+
+<script>
+    const englishWords = ["hello", "apple", "car", "computer", "house"];
+    const vietnameseWords = ["xin chào", "táo", "xe hơi", "máy tính", "ngôi nhà"];
+
+    function searchWord() {
+        let input = document.getElementById("searchInput").value.toLowerCase();
+        let resultDiv = document.getElementById("result");
+        let found = false;
+
+        for (let i = 0; i < englishWords.length; i++) {
+            if (englishWords[i] === input) {
+                resultDiv.textContent = "Nghĩa của từ: " + vietnameseWords[i];
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
+            resultDiv.textContent = "Không tìm thấy";
+            resultDiv.style.color = "red";
+        }
+    }
+</script>
+</body>
+</html>

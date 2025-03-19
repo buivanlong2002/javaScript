@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre id="ketqua"></pre>
+<script>
+  let arr = ["1", "f", "-", "g", "-"];
+
+  for(let num in arr){
+    if(arr[num] === "-"){
+      arr[num] = "_"
+    }
+  }
+  console.log(arr);
+
+  let a = "*";
+  let space = "";
+  for (let i = 1; i <= 5; i++) {
+    space += " ".repeat(5 - i) + a.repeat(i) + "\n" ;
+  }
+  document.getElementById("ketqua").textContent = space;
+</script>
+</body>
+</html>

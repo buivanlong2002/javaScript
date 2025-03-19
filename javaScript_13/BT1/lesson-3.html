@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  const numbers = [5, 12, 7, 20, 10, 3, 15, 8, 11, 9];
+  let maxVal = numbers[0];
+ let sum = 0 ;
+
+  for (let i = 0 ; i< numbers.length; i++) {
+    if (numbers[i] > maxVal) {
+      maxVal = numbers[i];
+    }
+  }
+  for (let num in numbers) {
+    sum += numbers[num];
+  }
+  console.log("Trung bình cộng của mảng: " + sum/ numbers.length);
+  console.log("Giá trị lớn nhất của mảng: "+ maxVal);
+
+</script>
+</body>
+</html>

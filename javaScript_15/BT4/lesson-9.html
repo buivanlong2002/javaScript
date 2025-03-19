@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function countCharacter(arr, char) {
+        let count = arr.filter(c => c === char).length;
+        return count > 0 ? count : -1;
+    }
+
+
+    console.log(countCharacter(['a', 'b', 'c', 'a', 'd', 'a'], 'a')); // 3
+    console.log(countCharacter(['x', 'y', 'z'], 'a')); // -1
+    console.log(countCharacter([], 'a')); // -1
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let size = 10; // Kích thước trái tim
+  let heart = "";
+
+  for (let i = 0; i < size / 2; i++) {
+    for (let j = 0; j <= size; j++) {
+      if (
+              (j >= size / 2 - i && j <= size / 2 + i) ||
+              (j >= size - i && j <= size + i)
+      ) {
+        heart += "*";
+      } else {
+        heart += " ";
+      }
+    }
+    heart += "\n";
+  }
+
+  for (let i = size / 2; i < size; i++) {
+    for (let j = 0; j <= 2 * size; j++) {
+      if (j >= i - size / 2 && j <= 2 * size - (i - size / 2)) {
+        heart += "*";
+      } else {
+        heart += " ";
+      }
+    }
+    heart += "\n";
+  }
+
+  console.log(heart);
+
+</script>
+</body>
+</html>

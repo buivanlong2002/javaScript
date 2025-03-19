@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPalindrome(s) {
+        // Điều kiện dừng: Nếu chuỗi có 0 hoặc 1 ký tự, nó là đối xứng
+        if (s.length <= 1) {
+            return true;
+        }
+
+        // Nếu ký tự đầu và cuối khác nhau, không phải palindrome
+        if (s[0] !== s[s.length - 1]) {
+            return false;
+        }
+
+        // Gọi đệ quy với chuỗi cắt bỏ ký tự đầu và cuối
+        return isPalindrome(s.substring(1, s.length - 1));
+    }
+
+    // Test
+    console.log(isPalindrome("radar")); // true
+    console.log(isPalindrome("hello")); // false
+    console.log(isPalindrome("madam")); // true
+</script>
+</body>
+</html>

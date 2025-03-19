@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str = 'The Quick Brown Fox';
+
+    // Khai báo hai chuỗi chứa bảng chữ cái viết hoa và viết thường
+    var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+
+    // Khởi tạo mảng để lưu kết quả sau khi xử lý từng ký tự
+    var result = [];
+
+    // Duyệt qua từng ký tự trong chuỗi đầu vào
+    for (var x = 0; x < str.length; x++) {
+        // Kiểm tra nếu ký tự hiện tại là chữ hoa
+        if (UPPER.indexOf(str[x]) !== -1) {
+            // Chuyển chữ hoa thành chữ thường và thêm vào mảng kết quả
+            // dung toLowerCase() chuyển thành chữ thường
+            result.push(str[x].toLowerCase());
+        }
+        // Kiểm tra nếu ký tự hiện tại là chữ thường
+        else if (LOWER.indexOf(str[x]) !== -1) {
+            // Chuyển chữ thường thành chữ hoa và thêm vào mảng kết quả
+            // dung toUpperCase chuyển thành chữ in hoa
+            result.push(str[x].toUpperCase());
+        }
+        // Nếu không phải chữ cái (ví dụ: số, ký tự đặc biệt), giữ nguyên
+        else {
+            result.push(str[x]);
+        }
+    }
+
+    // Kết hợp các phần tử trong mảng kết quả thành chuỗi và in ra màn hình
+    console.log(result.join(''));
+
+</script>
+</body>
+</html>

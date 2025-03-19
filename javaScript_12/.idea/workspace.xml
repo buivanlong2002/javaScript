@@ -5,32 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e963575a-81a3-4b45-80aa-80cdd9133d0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_10/TH5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_1/BT4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_1/BT5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_2/BT8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_11/BT_TH/BT1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_8/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trdhafd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/Tic_tac_toe/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/ggDich/gg-dich.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/ggDich/ghds.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_14/TH1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_14/TH2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_14/TH3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT1/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT2/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT3/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT3/lesson-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT3/lesson-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT3/lesson-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT3/lesson-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT4/lesson-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT5/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT6/b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_10/TH5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_10/TH5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_11/BT_3/BT4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_9/IfElse02/bt5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_9/IfElse02/bt5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,21 +79,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/CodeGym/JavaScript/javaScript_12",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeGym/JavaScript/javaScript_12&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,6 +111,12 @@
       <updated>1741621703351</updated>
       <workItem from="1741621704563" duration="4000" />
       <workItem from="1741942238222" duration="1535000" />
+      <workItem from="1742181098128" duration="3121000" />
+      <workItem from="1742277348261" duration="9000" />
+      <workItem from="1742286573171" duration="1023000" />
+      <workItem from="1742287965414" duration="57000" />
+      <workItem from="1742289990591" duration="16000" />
+      <workItem from="1742347241462" duration="1602000" />
     </task>
     <servers />
   </component>
