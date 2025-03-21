@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            padding: 0 75px;
+        }
+        .add_product{
+            width: 30%;
+            padding: 40px;
+            border-radius: 10px;
+            background-color: #dddddd;
+        }
+        .add_product input{
+            width: 70%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .add_product button{
+            width: 20%;
+            padding: 10px 5px;
+            border-radius: 5px;
+            background-color: #2fa300;
+            border: none;
+            color: white;
+        }
+        .product {
+            width: 100%;
+        }
+        button{
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #2fa300;
+            border: none;
+            color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        th, td {
+            border: 1px solid #a3a3a3;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #dddddd;
+        }
+        td:nth-child(1) {
+            width: 50%;
+            font-size: 18px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<h2>Thêm sản phẩm</h2>
+<div class="add_product">
+    <input type="text" id="nameProduct" placeholder="Nhập tên sản phẩm">
+    <button type="button" onclick="addProduct()">Add</button>
+</div>
+<h2>Tất cả sản phẩm</h2>
+<div class="product">
+    <table>
+        <tr>
+            <th>Tên Sản Phẩm</th>
+            <th>Sửa</th>
+            <th>Xóa</th>
+        </tr>
+        <tbody id="productList">
+        <tr>
+            <td>Iphone 3</td>
+            <td><button onclick="editProduct(this)">Sửa</button></td>
+            <td><button  onclick="deleteProduct(this)">Xóa</button></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
+<script>
+    let products = [];
+    function addProduct(){
+        let name = document.getElementById("nameProduct").value;
+        if (name === "")
+            return;
+        document.getElementById("productList").innerHTML += `
+                <tr>
+                    <td>${name}</td>
+                    <td><button onclick="editProduct(this)">Sửa</button></td>
+                    <td><button onclick="deleteProduct(this)">Xóa</button></td>
+                </tr>
+            `;
+        name.value = "";
+    }
+    function editProduct(index) {
+        let newName = prompt("Enter new product name:", products[index]);
+        if (newName !== null && newName.trim() !== "") {
+            products[index] = newName.trim();
+            addProduct();
+        }
+    }
+
+
+</script>

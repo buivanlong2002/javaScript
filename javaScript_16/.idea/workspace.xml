@@ -1,35 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2d7e2a96-3be7-429d-a29a-b9bb91d7d3b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../javaScript_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunnyCircles/funny-circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FunnyCircles/funny-circles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameOto/game-oto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameOto/game-oto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HCN/hcn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HCN/hcn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mobile/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temperature/temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temperature/tempreature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_17/flashlight/flashlight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_17/game/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_17/game/oto4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_17/game/pikachu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_17/game/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2u8EKSeTaurxCgsEIYg8o5uWkoK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/CodeGym/JavaScript/javaScript_16",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Node.js.demo.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.demodsda.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.game-oto.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.tempreature.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeGym/JavaScript/javaScript_16&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\JavaScript\javaScript_16\GameOto" />
+      <recent name="D:\CodeGym\JavaScript\javaScript_16\FunnyCircles" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -46,6 +94,16 @@
       <option name="presentableId" value="Default" />
       <updated>1741621736110</updated>
       <workItem from="1741621737240" duration="3000" />
+      <workItem from="1742356209652" duration="1765000" />
+      <workItem from="1742367172272" duration="607000" />
+      <workItem from="1742371600666" duration="32000" />
+      <workItem from="1742431881781" duration="3213000" />
+      <workItem from="1742435875088" duration="15963000" />
+      <workItem from="1742460072792" duration="640000" />
+      <workItem from="1742477091620" duration="8391000" />
+      <workItem from="1742485818693" duration="8719000" />
+      <workItem from="1742524787906" duration="3000" />
+      <workItem from="1742525410178" duration="371000" />
     </task>
     <servers />
   </component>

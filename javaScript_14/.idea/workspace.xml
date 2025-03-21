@@ -5,41 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da304d7c-3554-49f2-a2b5-572787907708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaScript_12/trdhafd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT1/lesson-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/BT2/lesson-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/Tic_tac_toe/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/ggDich/gg-dich.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/ggDich/ghds.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TH1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TH2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TH3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT1/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT2/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_15/BT2/lesson-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_10/TH5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_10/TH5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_11/BT_3/BT4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_11/BT_3/BT4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/FunnyCircles/funny-circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/FunnyCircles/funny-circles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/HCN/hcn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/HCN/hcn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/Mobile/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/Mobile/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/Temperature/temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/Temperature/tempreature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_16/date.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +79,8 @@
       <workItem from="1741621722454" duration="2000" />
       <workItem from="1742276656426" duration="479000" />
       <workItem from="1742278546155" duration="422000" />
+      <workItem from="1742453656085" duration="2000" />
+      <workItem from="1742453717174" duration="540000" />
     </task>
     <servers />
   </component>

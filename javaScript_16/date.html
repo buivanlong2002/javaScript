@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let MyDate = function(day, month, year) {
+
+        this.day = day;
+
+        this.month = month;
+
+        this.year = year;
+
+        this.getDay = function() {
+            return this.day;
+        }
+        this.getMonth = function() {
+            return this.month;
+        }
+        this.getYear = function() {
+            return this.year;
+        }
+        this.setDay = function(day) {
+            this.day  = day;
+        }
+        this.setMonth = function(month) {
+            this.month  = month;
+        }
+        this.setYear = function(year) {
+            this.year  = year;
+        }
+
+    };
+    let date = new MyDate(2, 2, 2007);
+
+    date.setDay(10);
+    date.setMonth(10);
+    date.setYear(2019);
+
+    let day = date.getDay();
+
+    let month = date.getMonth();
+
+    let year = date.getYear();
+
+    alert(day + "/" + month + "/" + year);
+
+    function getCurrentDateTime() {
+        const today = new Date();
+        const dd = String(today.getDate()).padStart(2, '0');
+        const mm = String(today.getMonth() + 1).padStart(2, '0');
+        const yyyy = today.getFullYear();
+        let hh = today.getHours();
+        const min = String(today.getMinutes()).padStart(2, '0');
+        const sec = String(today.getSeconds()).padStart(2, '0');
+        const ampm = hh >= 12 ? 'PM' : 'AM';
+        hh = hh % 12 || 12;
+
+        return `${mm}/${dd}/${yyyy} ${hh}:${min}:${sec} ${ampm}`;
+    }
+    alert(getCurrentDateTime());
+</script>
+</body>
+</html>
