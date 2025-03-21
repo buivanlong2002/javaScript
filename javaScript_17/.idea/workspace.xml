@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65db5c5-9cda-44d1-93d3-3fe0c47c5870" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/FunnyCircles/funny-circles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/FunnyCircles/funny-circles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/HCN/hcn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/HCN/hcn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Mobile/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Mobile/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Temperature/temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Temperature/tempreature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ Remote/remote.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ Remote/remote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdamAndEva/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CatAndRat/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwitchAndLightBulb/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ca-ro/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ca-ro/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ca-ro/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flashlight/flashlight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/oto4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/pikachu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c65db5c5-9cda-44d1-93d3-3fe0c47c5870" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +73,7 @@
       <updated>1741621743709</updated>
       <workItem from="1741621744826" duration="3000" />
       <workItem from="1741623690718" duration="7000" />
-      <workItem from="1742524795967" duration="5329000" />
+      <workItem from="1742524795967" duration="5535000" />
     </task>
     <servers />
   </component>

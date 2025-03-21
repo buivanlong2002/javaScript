@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<center>
+  <h2>Type anything slowly</h2>
+  <form name="t">
+    <textarea name="txt" rows="6" cols="50" oninput="typeTextarea()"></textarea>
+  </form>
+</center>
+<script>
+  let arr = ['Anh', 'Long', 'đẹp', 'trai', '。', 'quá', 'へ', '住ん', 'で', 'い', 'ます', '。'];
+  let index = 0;
+  function typeTextarea() {
+    let char = "";
+    let tex = document.t.txt.value;
+    if ( tex.length > 0 && index < arr.length ) {
+      document.t.txt.value = tex.slice(0, -1) + arr[index]; // slice(0, -1) : cắt bỏ phần tử cuối cùng của mảng
+      index++;
+    }
+    if (index >= arr.length - 1) {
+      setTimeout(() => {    // setTimeout(callback, delay, param1, param2, ...);  --> thực thi đoạn mã sau 1 thời gian cố định
+        document.t.txt.value = ""; // reset nội dung
+        index = 0; // reset vị trí
+      }, 1);
+    }
+  }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
