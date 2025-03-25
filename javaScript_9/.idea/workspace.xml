@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d738881-4d61-4175-bd6a-0b659b2b54e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaScript_12/trdhafd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/arrayFunctions/lesson-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/ggDich/gg-dich.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_13/ggDich/ghds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/jsaabfjfs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.html" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.js" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_16/GameOto/imgres.htm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +84,7 @@
       <workItem from="1741847543949" duration="6000" />
       <workItem from="1742173757168" duration="801000" />
       <workItem from="1742199150857" duration="2000" />
+      <workItem from="1742866267451" duration="101000" />
     </task>
     <servers />
   </component>

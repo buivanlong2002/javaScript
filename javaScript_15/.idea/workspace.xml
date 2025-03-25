@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7306b349-871c-469d-9177-b9d9d061b2eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/FunnyCircles/funny-circles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/FunnyCircles/funny-circles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/HCN/hcn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/HCN/hcn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Mobile/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Mobile/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Temperature/temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Temperature/tempreature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/date.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/jsaabfjfs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +70,8 @@
       <workItem from="1742457489224" duration="1093000" />
       <workItem from="1742477090834" duration="594000" />
       <workItem from="1742485829670" duration="3188000" />
+      <workItem from="1742543859425" duration="1715000" />
+      <workItem from="1742548411514" duration="673000" />
     </task>
     <servers />
   </component>

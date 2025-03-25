@@ -13,15 +13,16 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
             font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient cam đỏ */
         }
 
         /* Viền canvas */
         canvas {
-            border: 3px solid #000;
-            background-color: white;
-            border-radius: 8px;
+            border: 4px solid #222;
+            border-radius: 12px;
+            background: #ffffff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         /* Phần chứa nút điều khiển */
@@ -33,42 +34,44 @@
             gap: 15px; /* Khoảng cách giữa các nút */
         }
 
-        /* Nút điều khiển (hình vuông) */
+        /* Nút điều khiển */
         .oto button {
             width: 90px;
             height: 90px;
-            border: 1px solid #ffffff;
-            background-color: #ffffff; /* Màu vàng nổi bật */
+            border: none;
+            background-color: #ffffff; /* Màu nền nút */
+            border-radius: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            transition: all 0.2s ease-in-out;
-            box-shadow: 2px 2px 5px rgb(241, 240, 239);
+            transition: all 0.3s ease-in-out;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
         }
 
         /* Hiệu ứng khi di chuột vào */
         .oto button:hover {
-            background-color: #faebeb;
+            background-color: #f1c40f; /* Vàng đậm */
             transform: scale(1.1);
         }
 
         /* Hiệu ứng khi nhấn */
         .oto button:active {
-            background-color: rgba(239, 234, 234, 0.8);
-            transform: scale(0.9);
+            background-color: #e67e22; /* Cam đậm */
+            transform: scale(0.95);
         }
 
         /* Ảnh trong nút */
         .oto button img {
             width: 60px;
-            height: 60px;
+            height: 30px;
+            filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.3));
         }
 
     </style>
 </head>
 <body>
-<canvas id="gameCanvas" width="1000" height="150"></canvas>
+<canvas id="gameCanvas" width="1500" height="250"></canvas>
 <br>
 <div class = "oto">
     <button onclick="draw()"><img id="myImage" src="oto1.png" alt=""></button>

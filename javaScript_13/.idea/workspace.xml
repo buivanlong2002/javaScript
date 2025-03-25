@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3cd14db-8ad9-4c8f-8d2e-755dd66582fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/FunnyCircles/funny-circles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/FunnyCircles/funny-circles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/HCN/hcn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/HCN/hcn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Mobile/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Mobile/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Temperature/temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/Temperature/tempreature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_16/date.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsaabfjfs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.html" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.js" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_16/GameOto/game-oto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_16/GameOto/imgres.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,6 +43,7 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.lesson-3.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.jsaabfjfs.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -62,12 +56,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.jsaabfjfs.js">
     <configuration name="lesson-3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/javaScript_13/BT1/lesson-3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jsaabfjfs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/jsaabfjfs.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.jsaabfjfs.js" />
         <item itemvalue="JavaScript Debug.lesson-3.html" />
       </list>
     </recent_temporary>
@@ -106,6 +104,8 @@
       <workItem from="1742460067935" duration="22000" />
       <workItem from="1742460106420" duration="1030000" />
       <workItem from="1742477084143" duration="17000" />
+      <workItem from="1742541486028" duration="2344000" />
+      <workItem from="1742869509718" duration="604000" />
     </task>
     <servers />
   </component>

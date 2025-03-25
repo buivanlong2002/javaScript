@@ -5,29 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d7e2a96-3be7-429d-a29a-b9bb91d7d3b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FunnyCircles/funny-circles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunnyCircles/funny-circles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameOto/game-oto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameOto/game-oto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HCN/hcn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HCN/hcn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mobile/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mobile/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temperature/temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temperature/tempreature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_17/flashlight/flashlight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_17/game/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_17/game/oto4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_17/game/pikachu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javaScript_17/game/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_12/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaScript_13/jsaabfjfs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_14/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_15/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/game-oto.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameOto/game-oto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/game-oto.js" beforeDir="false" afterPath="$PROJECT_DIR$/GameOto/game-oto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/imgres.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/lovepik-roadblock-png-image_400507752_wh1200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/oto1.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameOto/oto1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/oto2.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameOto/oto2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/oto4.png" beforeDir="false" afterPath="$PROJECT_DIR$/GameOto/oto4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameOto/vatcan.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaScript_9/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,25 +47,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Node.js.demo.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.demodsda.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.game-oto.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.tempreature.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeGym/JavaScript/javaScript_16&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.game-oto.html.executor": "Run",
+    "Node.js.demo.js.executor": "Run",
+    "Node.js.demodsda.js.executor": "Run",
+    "Node.js.game-oto.js.executor": "Run",
+    "Node.js.tempreature.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/CodeGym/JavaScript/javaScript_16",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeGym\JavaScript\javaScript_16\GameOto" />
@@ -104,6 +99,12 @@
       <workItem from="1742485818693" duration="8719000" />
       <workItem from="1742524787906" duration="3000" />
       <workItem from="1742525410178" duration="371000" />
+      <workItem from="1742647600395" duration="2689000" />
+      <workItem from="1742777850692" duration="210000" />
+      <workItem from="1742778468237" duration="24000" />
+      <workItem from="1742779572184" duration="7000" />
+      <workItem from="1742869518788" duration="907000" />
+      <workItem from="1742872869486" duration="6102000" />
     </task>
     <servers />
   </component>
